@@ -45,6 +45,7 @@ Het `%` teken is de "modulo" operator. Het geeft de **rest** terug van een delin
 - Element 4: 4 % 2 === 0? → true → toegevoegd aan resultaat
 - enz.
 
+
 #### `map()`
 De `map()` method maakt een nieuwe array door elk element te transformeren.
 
@@ -53,7 +54,7 @@ const getallen = [1, 2, 3, 4];
 const verdubbeld = getallen.map(getal => getal * 2);
 console.log(verdubbeld); // [2, 4, 6, 8]
 ```
-
+1
 **Uitleg waarom er twee keer 'getal' staat:**
 - Het eerste `getal` (voor de =>) is de **parameter naam** die jij zelf kiest. Dit kan elke naam zijn.
 - Het tweede `getal` (na de =>) is het **gebruik** van die parameter in de functie.
@@ -91,7 +92,7 @@ console.log(hoofdletterNamen); // ['Jan', 'Piet', 'Klaas']
 - `naam.charAt(0)` - Pakt het eerste character (index 0)
 - `.toUpperCase()` - Maakt het character hoofdletter  
 - `naam.slice(1)` - Pakt alles vanaf index 1 (de rest van de naam)
-- `+` - Plakt de hoofdletter en rest samen
+- `+` - Plakt de hoofdletter en rest samen  
 
 **Stap voor stap met 'jan':**
 - `naam.charAt(0)` = 'j'

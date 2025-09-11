@@ -9,6 +9,6 @@ console.log('Gezochte kleur:', zoekKleur);
 
 // TODO: Check of de kleur in de array staat
 const gevonden =
-  /* jouw code hier */
+  kleuren.findIndex(kleur => kleur === 'groen');
 
   console.log('Kleur gevonden:', gevonden);
