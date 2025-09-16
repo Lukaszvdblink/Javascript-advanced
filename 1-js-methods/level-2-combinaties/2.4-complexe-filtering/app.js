@@ -8,14 +8,14 @@ console.log('Alle getallen:', getallen);
 console.log('Alle woorden:', woorden);
 
 // TODO: Filter getallen die groter zijn dan 10 EN kleiner dan 20
-const middelsteGetallen = /* jouw code hier */
+const middelsteGetallen = getallen.filter(t => t > 10 && t < 20);
 console.log('Getallen tussen 10 en 20:', middelsteGetallen);
 
 // TODO: Filter woorden die beginnen met 'a' EN langer zijn dan 5 letters
-const langeAwoorden = /* jouw code hier */
+const langeAwoorden = woorden.filter(w => w[0] === 'a' && w.length > 5);
 console.log('Lange woorden met a:', langeAwoorden);
 
 // TODO: Filter even getallen die groter zijn dan 15
-const groteEvenGetallen = /* jouw code hier */
+const groteEvenGetallen = getallen.filter(t => t % 2 === 0 && t > 15);
 console.log('Grote even getallen:', groteEvenGetallen);
 
