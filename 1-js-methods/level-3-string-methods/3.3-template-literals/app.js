@@ -11,7 +11,7 @@ console.log('Steden:', steden);
 
 // TODO: Maak beschrijvingen met template literals
 // Tip: gebruik map() met index parameter: (naam, index) => 
-const beschrijvingen = namen.map((naam, index) => 
+const beschrijvingen = namen.map((naam, index) =>
     `${naam} (${leeftijden[index]} jaar) woont in ${steden[index]}.`
 );
 
