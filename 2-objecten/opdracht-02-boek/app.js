@@ -1,5 +1,12 @@
 // Maak een boek object waar je allemaal gegevens van een boek in kunt opslaan en tonen op het scherm.
-
+const boek = {
+    titel: 'bobob',
+    auteur: 'Lukasz',
+    uitgeverij: 'rafiq',
+    jaar: '1984',
+    verkocht: '2',
+    prijs: '206',
+}   
 // Het object moet de volgende properties bevatten:
 
 //     Titel: de titel van het boek (string)
@@ -9,8 +16,15 @@
 //     Verkocht: aantal verkochten exemplaren (number)
 //     Prijs: prijs van het boek (string)
 
-// Toon elke property op het scherm door het in een p-tag te plaatsen. Hiervoor maak je in je HTML een div-tag aan met de class 'output'.
+let output = document.querySelector('.output');
 
-// In de theorie staat uitgelegd hoe je dit moet doen.
 
-// Let op: in de code conventions staat dat je de code in het Engels moet schrijven!
+output.innerHTML = `
+  <h1>Naam van het boek is ${boek.titel}</h1>
+  <p>titel: ${boek.titel}</p>
+  <p>uitgeverij: ${boek.uitgeverij}</p>
+  <p>jaar: ${boek.jaar}<p>
+  <p>verkocht:${boek.verkocht}</p>
+  <p>prijs:${boek.prijs}</p> 
+
+`

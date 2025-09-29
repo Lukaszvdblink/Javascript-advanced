@@ -57,6 +57,19 @@ const students = [
 //   // </article>
 // }
 
+function toonAlleStudenten() {
+  for (let i = 0; i < students.length; i++) {
+    const student = students[i];
+    // hier ga je per student iets doen
+  }
+}
+
+
+
+
+
+
+
 function toonActieveStudenten() {
   // 📝 WAT MOET JE DOEN:
   // 1. Filter de students array op studenten waar actief === true

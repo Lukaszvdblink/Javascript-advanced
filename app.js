@@ -1,14 +1,8 @@
-const firstName = document.getElementById('inputName');
-const showName = document.getElementById('firstName')
+const { app, BrowserWindow } = require('electron')
 
-function saveName(){
-    firstName.value
-    localStorage.setItem('firstName', firstName.value);
-
+function createWindow () {
+  const win = new BrowserWindow({ width: 800, height: 600 })
+  win.loadFile('index.html')
 }
 
-function getName(){
-    localStorage.getItem("firstName")
-    showName.innerText = localStorage.getItem("firstName")
-}
-
+app.whenReady().then(createWindow)
