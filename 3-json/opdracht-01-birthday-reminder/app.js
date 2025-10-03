@@ -15,6 +15,17 @@ fetch('./birthday.json')
     `;
 
 
+const clearBtn = document.getElementById("clear");
+
+
+clearBtn.addEventListener("click", () => {
+  output.innerHTML = ""; 
+});
+
+
+
+
+
 
 
 }
