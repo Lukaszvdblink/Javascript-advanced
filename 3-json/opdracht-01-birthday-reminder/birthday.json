@@ -1,0 +1,32 @@
+[
+  {
+    "naam": "Berkan",
+    "leeftijd": 17,
+    "afbeelding": "afbeeldingen/berkan.jpg"
+  },
+  {
+    "naam": "Rafiq",
+    "leeftijd": 17,
+    "afbeelding": "afbeeldingen/rafiq.jpg"
+  },
+  {
+    "naam": "Lukasz",
+    "leeftijd": 18,
+    "afbeelding": "afbeeldingen/lukasz.jpg"
+  },
+  {
+    "naam": "Bertie",
+    "leeftijd": 18,
+    "afbeelding": "afbeeldingen/bertie.jpg"
+  },
+  {
+    "naam": "Hester",
+    "leeftijd": 30,
+    "afbeelding": "afbeeldingen/hester.jpg"
+  },
+  {
+    "naam": "Larry",
+    "leeftijd": 28,
+    "afbeelding": "afbeeldingen/larry.jpg"
+  }
+]
